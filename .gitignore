@@ -12,7 +12,7 @@ package-lock.json
 # Optional: Directory for storing the build output
 dist/
 
-# Environment variables ok
+# Environment variables
 .env
 
 # IDE settings
