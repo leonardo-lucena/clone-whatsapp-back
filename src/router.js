@@ -8,5 +8,7 @@ routes.get('/health', (req, res) => {
 })
 
 routes.post('/user', UserController.insert)
+routes.get('/user/:email', UserController.getUser)
+routes.get('/users', UserController.getAllUsers)
 
 module.exports = routes
