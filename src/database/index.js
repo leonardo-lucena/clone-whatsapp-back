@@ -1,7 +1,8 @@
 const Sequelize = require('sequelize')
 const User = require('../apps/models/Users')
+const Message = require('../apps/models/Messages')
 
-const models = [User];
+const models = [User, Message];
 
 const databaseConfig = require('../configs/db')
 
